@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Studio - Professional Freelance Services</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" data-aos="fade-right">Creative Studio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item" data-aos="fade-left" data-aos-delay="100">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-left" data-aos-delay="200">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-left" data-aos-delay="300">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-left" data-aos-delay="400">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-left" data-aos-delay="500">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background"></div>
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-1 fw-bold" data-aos="zoom-in">Creative Excellence</h1>
+                    <p class="lead mb-4 typing-text">Transforming ideas into digital masterpieces</p>
+                    <a href="#contact" class="btn btn-primary btn-lg" data-aos="fade-up" data-aos-delay="400">Get Started</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Our Services</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card text-center p-4" data-bs-toggle="modal" data-bs-target="#webDevModal">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-code mb-3"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Custom web applications and responsive websites built with modern technologies.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card text-center p-4" data-bs-toggle="modal" data-bs-target="#webDesignModal">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-pencil-ruler mb-3"></i>
+                        </div>
+                        <h3>Web Design</h3>
+                        <p>Beautiful, user-friendly interfaces that engage and convert visitors.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card text-center p-4" data-bs-toggle="modal" data-bs-target="#graphicDesignModal">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-palette mb-3"></i>
+                        </div>
+                        <h3>Graphic Design</h3>
+                        <p>Eye-catching visuals, logos, and brand identity materials.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card text-center p-4" data-bs-toggle="modal" data-bs-target="#videoEditingModal">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-video mb-3"></i>
+                        </div>
+                        <h3>Video Editing</h3>
+                        <p>Professional video editing, motion graphics, and visual effects.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-card text-center p-4" data-bs-toggle="modal" data-bs-target="#seoModal">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-chart-line mb-3"></i>
+                        </div>
+                        <h3>SEO & Digital Marketing</h3>
+                        <p>Boost your online presence with expert SEO and marketing strategies.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-card text-center p-4" data-bs-toggle="modal" data-bs-target="#officeModal">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-file-excel mb-3"></i>
+                        </div>
+                        <h3>Microsoft Office Expert</h3>
+                        <p>Advanced Excel, Word, PowerPoint solutions and training.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Featured Work</h2>
+            
+            <!-- Portfolio Tabs -->
+            <ul class="nav nav-tabs portfolio-tabs justify-content-center mb-5" id="portfolioTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="web-tab" data-bs-toggle="tab" data-bs-target="#web" type="button" role="tab" aria-selected="true">
+                        Web Development
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="mobile-tab" data-bs-toggle="tab" data-bs-target="#mobile" type="button" role="tab" aria-selected="false">
+                        Mobile Apps
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="design-tab" data-bs-toggle="tab" data-bs-target="#design" type="button" role="tab" aria-selected="false">
+                        UI/UX Design
+                    </button>
+                </li>
+            </ul>
+
+            <!-- Portfolio Tab Content -->
+            <div class="tab-content" id="portfolioTabContent">
+                <!-- Web Development Tab -->
+                <div class="tab-pane fade show active" id="web" role="tabpanel" aria-labelledby="web-tab">
+                    <div class="portfolio-item" data-aos="fade-up">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/1920x1080" alt="E-commerce Platform" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <span class="category">Web Development</span>
+                                    <h3>Modern E-commerce Platform</h3>
+                                    <p>A cutting-edge online shopping experience built with the latest technologies</p>
+                                    <a href="#" class="btn btn-outline-light">Learn more <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile Apps Tab -->
+                <div class="tab-pane fade" id="mobile" role="tabpanel" aria-labelledby="mobile-tab">
+                    <div class="portfolio-item" data-aos="fade-up">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/1920x1080" alt="Fitness App" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <span class="category">Mobile App</span>
+                                    <h3>Fitness Tracking App</h3>
+                                    <p>Cross-platform mobile application with real-time tracking and analytics</p>
+                                    <a href="#" class="btn btn-outline-light">Learn more <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UI/UX Design Tab -->
+                <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
+                    <div class="portfolio-item" data-aos="fade-up">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/1920x1080" alt="Brand Identity" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-content">
+                                    <span class="category">UI/UX Design</span>
+                                    <h3>Brand Identity System</h3>
+                                    <p>Complete visual identity and design system for global brand</p>
+                                    <a href="#" class="btn btn-outline-light">Learn more <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h2 class="mb-4">About Us</h2>
+                    <p class="lead">We're a team of passionate creators dedicated to crafting exceptional digital experiences.</p>
+                    <p>With years of experience in design and development, we bring your vision to life with precision and creativity.</p>
+                    <div class="stats-container mt-4">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="150">0</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="50">0</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-image-container">
+                        <img src="https://via.placeholder.com/600x400" alt="About Us" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Get in Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form data-aos="fade-up" data-aos-delay="200">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="nameInput" placeholder="Your Name">
+                            <label for="nameInput">Your Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="emailInput" placeholder="Your Email">
+                            <label for="emailInput">Your Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="messageInput" rows="5" placeholder="Your Message"></textarea>
+                            <label for="messageInput">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5 bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0" data-aos="fade-up">
+                    <h5>Creative Studio</h5>
+                    <p>Crafting digital experiences that inspire and engage.</p>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                    <h5>Contact</h5>
+                    <p>Email: hello@creativestudio.com<br>
+                    Phone: (555) 123-4567</p>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2024 Creative Studio. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Service Modals -->
+    <!-- Web Development Modal -->
+    <div class="modal fade service-modal" id="webDevModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="service-modal-content">
+                        <div class="icon-wrapper modal-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h2>Web Development</h2>
+                        <p class="lead">Building the digital future with cutting-edge technologies</p>
+                        <div class="service-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Custom Web Applications</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Responsive Design</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>E-commerce Solutions</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>API Integration</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-lg" data-bs-dismiss="modal">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Web Design Modal -->
+    <div class="modal fade service-modal" id="webDesignModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="service-modal-content">
+                        <div class="icon-wrapper modal-icon">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <h2>Web Design</h2>
+                        <p class="lead">Creating beautiful, intuitive user experiences</p>
+                        <div class="service-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>UI/UX Design</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Wireframing & Prototyping</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Mobile-First Design</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Brand Integration</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-lg" data-bs-dismiss="modal">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Graphic Design Modal -->
+    <div class="modal fade service-modal" id="graphicDesignModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="service-modal-content">
+                        <div class="icon-wrapper modal-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h2>Graphic Design</h2>
+                        <p class="lead">Bringing your brand to life through visual storytelling</p>
+                        <div class="service-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Logo Design</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Brand Identity</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Marketing Materials</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Social Media Graphics</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-lg" data-bs-dismiss="modal">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Editing Modal -->
+    <div class="modal fade service-modal" id="videoEditingModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="service-modal-content">
+                        <div class="icon-wrapper modal-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h2>Video Editing</h2>
+                        <p class="lead">Professional video production and post-processing</p>
+                        <div class="service-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Video Post-Production</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Motion Graphics</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Color Grading</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Sound Design</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-lg" data-bs-dismiss="modal">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SEO Modal -->
+    <div class="modal fade service-modal" id="seoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="service-modal-content">
+                        <div class="icon-wrapper modal-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h2>SEO & Digital Marketing</h2>
+                        <p class="lead">Amplifying your online presence and reach</p>
+                        <div class="service-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Search Engine Optimization</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Content Marketing</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Social Media Marketing</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Analytics & Reporting</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-lg" data-bs-dismiss="modal">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Microsoft Office Modal -->
+    <div class="modal fade service-modal" id="officeModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="service-modal-content">
+                        <div class="icon-wrapper modal-icon">
+                            <i class="fas fa-file-excel"></i>
+                        </div>
+                        <h2>Microsoft Office Expert</h2>
+                        <p class="lead">Maximizing productivity with Microsoft Office solutions</p>
+                        <div class="service-features">
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Excel Automation</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>PowerPoint Presentations</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Word Document Templates</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Office Training</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-lg" data-bs-dismiss="modal">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Particles JS -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Custom JS -->
+    <script>
+        // Initialize AOS with updated settings
+        AOS.init({
+            duration: 1000,
+            once: false,
+            mirror: true,
+            offset: 50,
+            disable: 'mobile'
+        });
+
+        // Ensure content is visible after animations
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+            
+            // Reset AOS
+            setTimeout(function() {
+                AOS.refresh();
+            }, 500);
+        });
+
+        // Register ScrollTrigger plugin
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Stats counter
+        const stats = document.querySelectorAll('.stat-number');
+        
+        // Stats counter with GSAP
+        function animateStats() {
+            stats.forEach(stat => {
+                const target = parseInt(stat.getAttribute('data-target'));
+                gsap.to(stat, {
+                    duration: 2,
+                    innerText: target,
+                    snap: { innerText: 1 },
+                    ease: "power2.out"
+                });
+            });
+        }
+
+        // Trigger stats animation when in view
+        ScrollTrigger.create({
+            trigger: ".stats-container",
+            start: "top center+=100",
+            onEnter: () => animateStats(),
+            once: true
+        });
+
+        // Navbar background change on scroll
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scroll with GSAP
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    gsap.to(window, {
+                        duration: 1,
+                        scrollTo: target,
+                        ease: "power2.inOut"
+                    });
+                }
+            });
+        });
+
+        // Scroll Progress Indicator
+        const scrollProgress = document.querySelector('.scroll-progress');
+        window.addEventListener('scroll', () => {
+            const totalScroll = document.documentElement.scrollHeight - window.innerHeight;
+            const scrolled = (window.scrollY / totalScroll) * 100;
+            scrollProgress.style.transform = `scaleX(${scrolled / 100})`;
+        });
+
+        // Add reveal-text class to text elements
+        document.querySelectorAll('h2, .lead, p:not(.mb-0)').forEach(el => {
+            el.classList.add('reveal-text');
+        });
+
+        // Ensure all content is visible after page load
+        window.addEventListener('DOMContentLoaded', (event) => {
+            setTimeout(() => {
+                document.querySelectorAll('.reveal-text').forEach(el => {
+                    el.classList.add('visible');
+                });
+            }, 100);
+        });
+
+        // Initialize Particles.js
+        particlesJS('particles-js', {
+            particles: {
+                number: {
+                    value: 80,
+                    density: {
+                        enable: true,
+                        value_area: 800
+                    }
+                },
+                color: {
+                    value: '#ffffff'
+                },
+                shape: {
+                    type: 'circle'
+                },
+                opacity: {
+                    value: 0.5,
+                    random: false,
+                    anim: {
+                        enable: false
+                    }
+                },
+                size: {
+                    value: 3,
+                    random: true,
+                    anim: {
+                        enable: false
+                    }
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: '#ffffff',
+                    opacity: 0.2,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 2,
+                    direction: 'none',
+                    random: false,
+                    straight: false,
+                    out_mode: 'out',
+                    bounce: false,
+                    attract: {
+                        enable: true,
+                        rotateX: 600,
+                        rotateY: 1200
+                    }
+                }
+            },
+            interactivity: {
+                detect_on: 'canvas',
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: 'grab'
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: 'push'
+                    },
+                    resize: true
+                },
+                modes: {
+                    grab: {
+                        distance: 140,
+                        line_linked: {
+                            opacity: 0.5
+                        }
+                    },
+                    push: {
+                        particles_nb: 4
+                    }
+                }
+            },
+            retina_detect: true
+        });
+    </script>
+</body>
+</html> 
